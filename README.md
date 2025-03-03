@@ -58,27 +58,14 @@ results/
 - **Bounding Boxes**: Comparing ground truth vs. predicted bounding boxes.
 - **Test Sample Predictions**: Displaying 3-4 random test images with detections.
 
-## Running the Code
-```bash
-# Step 1: Preprocess the dataset
-python scripts/preprocess.py
-
-# Step 2: Train the YOLOv8 model
-python scripts/train.py
-
-# Step 3: Evaluate the model
-python scripts/evaluate.py
-```
 
 ## Dependencies
-- Python 3.8+
+- Python 3.10
 - ultralytics (for YOLOv8)
-- OpenCV, NumPy, Pandas
-- supervision (for evaluation metrics)
+- OpenCV,NumPy,Pandas
+- supervision(for evaluation metrics)(refer to the actual documentation of supervision,a lot has changed)
 
 ## Acknowledgments
-This project is part of an internship test at WSAI IIT Madras.
-
-## How to Contribute
-If you would like to contribute, feel free to fork the repository and create a pull request with improvements or fixes.
+This project is part of an internship and also personal interest
+s.
 
